@@ -7,7 +7,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #36B9CC; 
+  background-color: #87faed; /* #36B9CC; */
   border-radius: 0;
   border: 0;
 }
@@ -62,56 +62,12 @@ body {
   vertical-align: middle;
 }
 
-.tabs {
-  text-align: center;
+#page_tabs {
+  color: solid black;
+  font-size: 2.5em;
   font-weight: bold;
-  padding: 15px;
-}
+}  
 
-.tab_itens a {
-  color: #000000;
-}
-
-.tab_itens a:hover, .tab_itens a:focus {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-  
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
 /* END HEADER */
 
 /* FOOTER */
@@ -123,25 +79,30 @@ body {
   border-top: 0;
 }
 .panel-footer div.row {
-  margin-bottom: 35px;
+  margin-bottom: 5px;
 }
-#hours, #address {
-  line-height: 2;
+
+.phone a, .email a {
+  color: #ffffff;
+  text-decoration: none;
 }
-#hours > span, #address > span {
-  font-size: 1.3em;
+
+.panel-footer a: hower, .panel-footer a: active {
+  text-decoration: none;
+  color: #ffffff;
 }
-#address p {
-  color: #557c3e;
-  font-size: .8em;
-  line-height: 1.8;
+
+.panel-footer h2, .panel-footer h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#testimonials {
-  font-style: italic;
+
+.panel-footer h2 {
+  font-size: 1.5em;
 }
-#testimonials p:nth-child(2) {
-  margin-top: 25px;
-}
+
 /* END FOOTER */
 
 
