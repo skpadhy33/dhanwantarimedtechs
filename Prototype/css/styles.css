@@ -108,31 +108,54 @@ body {
 
 
 /* HOME PAGE */
-.container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+.intro {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 10px;
+  color: #000000;
+  /*background-color: #00ff00; */
 }
 
-#menu-tile, #specials-tile, #map-tile {
+#home_prod {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #000000;
+  text-align: center;
+}
+
+.container .jumbotron {
+  /*box-shadow: 0 0 50px #3F0C1F;*/
+  border: 1px solid #3F0C1F;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#ventilator-tile, #monitor-tile, #defibrilator-tile, #hhhfnc-tile, #ecg-tile, #sp-tile, #accessories-tile, 
+#anesthesia-tile {
+  /*box-shadow: 0 0 50px #3F0C1F;*/
   height: 250px;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+#monitor-tile:hover, #ventilator-tile:hover, #defibrilator-tile:hover, #sp-tile:hover, 
+#hhhfnc-tile:hover, #ecg-tile:hover, #accessories-tile:hower, #anesthesia-tile:hower {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+#ventilator-tile {
+  background: url('../images/ventilator/ventilator_tile.jpg') no-repeat;
   background-position: center;
 }
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+#monitor-tile {
+  background: url('../images/monitor/monitor-tile.jpg') no-repeat;
   background-position: center;
 }
-#menu-tile span, #specials-tile span, #map-tile span {
+#ventilator-tile span, #monitor-tile span, #defibrilator-tile span, #sp-tile span, #hhhfnc-tile span, #ecg-tile span,
+#accessories-tile span, #anesthesia-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -267,44 +290,11 @@ h3.menu-item-title {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { /*Company name */
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
-  .navbar-brand p img { /* Star-K */
-    height: 20px;
-  }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0px 10px 0px 10px;
-    padding-left:  0px 5px 0px 5px;
-  }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
+  
   /* End Header */
 
   /* Footer */
@@ -322,7 +312,7 @@ h3.menu-item-title {
 
   /* Home Page */
   .container .jumbotron {
-    margin-top: 30px;
+    margin-top: 60px;
     padding: 0;
   }
   #menu-tile, #specials-tile {
