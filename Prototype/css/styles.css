@@ -322,8 +322,11 @@ h3.menu-item-title {
     font-size: 1.2em;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding-left:  0px 5px 0px 5px;
   }
 
   #call-btn > a {
