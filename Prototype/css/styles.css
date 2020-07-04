@@ -154,6 +154,10 @@ body {
   background: url('../images/monitor/monitor-tile.jpg') no-repeat;
   background-position: center;
 }
+#ecg-tile {
+  background: url('../images/ecg/ecg-tile.jpg') no-repeat;
+  background-position: center;
+}
 #ventilator-tile span, #monitor-tile span, #defibrilator-tile span, #sp-tile span, #hhhfnc-tile span, #ecg-tile span,
 #accessories-tile span, #anesthesia-tile span {
   position: absolute;
