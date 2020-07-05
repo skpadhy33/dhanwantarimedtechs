@@ -7,7 +7,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #87faed; /* #36B9CC; */
+  background-color: #006699; /*#87faed;*/ /* #36B9CC; */
   border-radius: 0;
   border: 0;
 }
@@ -23,7 +23,7 @@ body {
   background: url('../images/logo_ small.png') no-repeat;
   width: 100px;
   height: 100px;
-  margin: 10px 15px 10px 10px;
+  margin: 10px 10px 10px 10px;
 }
 
 
@@ -36,7 +36,7 @@ body {
 }
 .navbar-brand h1 { /* Company name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #87cefa; /*#557c3e;*/
   font-size: 2.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -62,10 +62,26 @@ body {
   vertical-align: middle;
 }
 
-#page_tabs {
-  color: solid black;
-  font-size: 2.5em;
-  font-weight: bold;
+.nav-tabs {
+  margin-top: 25px;
+}
+
+.nav-tabs li > a{
+  color: #000000; /*black;*/
+  font-size: 1.25em;
+  /*font-weight: bold;*/
+}  
+
+.nav-tabs > li > a{
+  color: #ffffff; /*black;*/
+  font-size: 1.25em;
+  /*font-weight: bold;*/
+} 
+
+.nav-tabs li > a:hover, .nav-tabs li > a:active{
+  color: #000000; /*black;*/
+  font-size: 1.25em;
+  /*font-weight: bold;*/
 }  
 
 /* END HEADER */
@@ -147,7 +163,7 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #ventilator-tile {
-  background: url('../images/ventilator/ventilator_tile.jpg') no-repeat;
+  background: url('../images/ventilator/ventilator-tile.jpg') no-repeat;
   background-position: center;
 }
 #monitor-tile {
@@ -169,7 +185,7 @@ body {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  opacity: .8;
+  opacity: .6;
 }
 /* END HOME PAGE */
 
