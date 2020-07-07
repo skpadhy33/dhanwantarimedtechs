@@ -16,21 +16,21 @@ body {
   background: url('../images/logo_large.png') no-repeat;
   width: 150px;
   height: 150px;
-  margin: 10px 15px 10px 10px;
+  margin: 20px 15px 10px 10px;
 }
 
 #logo-img-sm {
   background: url('../images/logo_ small.png') no-repeat;
   width: 100px;
   height: 100px;
-  margin: 10px 10px 10px 10px;
+  margin: 20px 10px 10px 10px;
 }
 
 #logo-img-xs {
   background: url('../images/logo_xs.PNG') no-repeat;
   width: 75px;
   height: 75px;
-  margin: 10px 10px 10px 10px;
+  margin: 20px 5px 10px 10px;
 }
 
 .navbar-brand {
@@ -63,15 +63,6 @@ body {
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-}
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
-}
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
 }
 
 .nav-tabs {
@@ -343,8 +334,20 @@ h3.menu-item-title {
   }
   .navbar-brand h1 { /*Company name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 1.0em; /* 1vw = 1% of viewport width */
   }
+  .nav-tabs li > a{
+    color: #000000; /*black;*/
+    font-size: 1.0em;
+    /*font-weight: bold;*/
+  }  
+
+  .nav-tabs > li > a{
+    color: #ffffff; /*black;*/
+    font-size: 1.0em;
+    /*font-weight: bold;*/
+  } 
+
   
   /* End Header */
 
