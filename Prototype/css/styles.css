@@ -193,6 +193,10 @@ body {
 #defibrilator-tile {
   background: url('../images/defibrilator/defibrilator-tile.jpg') no-repeat;
   background-position: center;
+}/**/
+#anesthesia-tile {
+  background: url('../images/anesthesia/anesthesia-tile.jpg') no-repeat;
+  background-position: center;
 }
 #hhhfnc-tile {
   background: url('../images/hhhfnc/hhhfnc-tile.jpg') no-repeat;
