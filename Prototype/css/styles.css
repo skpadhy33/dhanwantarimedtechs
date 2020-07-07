@@ -27,7 +27,7 @@ body {
 }
 
 #logo-img-xs {
-  background: url('../images/logo_xs.png') no-repeat;
+  background: url('../images/logo_xs.PNG') no-repeat;
   width: 75px;
   height: 75px;
   margin: 10px 10px 10px 10px;
