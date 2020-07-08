@@ -42,8 +42,8 @@
             
           <div class="col-xs-12">
             <ul class = "nav nav-tabs">
-             <li class = "active"><a href = "index.html">Home</a></li>
-             <li class = "dropdown">
+             <li><a href = "index.html">Home</a></li>
+             <li class = "dropdown active">
                 <a class = "dropdown-toggle" data-toggle = "dropdown" href = "#">
                    Products
                    <span class = "caret"></span>
@@ -51,7 +51,7 @@
                 <ul class="dropdown-menu">
                    <li><a href = "ventilator.html">Ventilators</a></li>
                    <li><a href = "monitor.html">Monitors</a></li>
-                   <li><a href = "defibrilator.html">Defibrilator</a></li>
+                   <li class = "active"><a href = "defibrilator.html">Defibrilator</a></li>
                    <li><a href = "ecg.html">ECG Machine</a></li>
                    <li><a href = "sp.html">Syringe Pump</a></li>
                    <li><a href = "hhhfnc.html">HHHFNCr</a></li>
@@ -69,41 +69,51 @@
   </header>
 
   <div id="main-content" class="container">
-    <div class="jumbotron">
-      <img src="images/jumbotron1_768.jpg" alt="Banner" class="img-responsive visible-xs">
+    
+    <h1 class="page_h1">Defibrilator</h1>
+
+    <div class="product_banner">
+      <img src="images/defibrilator/defibrilator_768.jpg" alt="Defibrilator">
     </div>
     
-    <div id="home-tiles" class="row">
+    <div class="row">
 
-      <h1 class="page_h1">Products</h1>
+      <div class="product-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="product-item-photo">
+              <div>Ventilator-1</div>
+              <!-- <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item"> -->
+            </div>
+            <div class="product-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+          </div>
+          <div class="product-item-description col-sm-7">
+            <h3 class="product-item-title">Ventilator-1</h3>
+            <p class="product-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
 
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="ventilator.html"><div id="ventilator-tile"><span>Ventilator</span></div></a>
+      <div class="product-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="product-item-photo">
+              <div>Ventilator-1</div>
+              <!-- <img class="img-responsive" width="250" height="150" src="images/menu/B/B-1.jpg" alt="Item"> -->
+            </div>
+            <div class="product-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+          </div>
+          <div class="product-item-description col-sm-7">
+            <h3 class="product-item-title">Ventilator-1</h3>
+            <p class="product-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
       </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="monitor.html"><div id="monitor-tile"><span>Monitors</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="defibrilator.html"><div id="defibrilator-tile"><span>Defibrilator</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="sp.html"><div id="sp-tile"><span>Syringe Pump</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="ecg.html"><div id="ecg-tile"><span>ECG Machine</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="hhhfnc.html"><div id="hhhfnc-tile"><span>HHHFNC</span></div></a>
-      </div>
-      <div class="col-md-2 col-sm-0 col-xs-0"></div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="anesthesia.html"><div id="anesthesia-tile"><span>Anesthesia WS</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="accessories.html"><div id="accessories-tile"><span>Miscellaneous Accessories</span></div></a>
-      </div>
-      <div class="col-md-2 col-sm-0 col-xs-0"></div>
-      
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
     </div><!-- End of #home-tiles -->
   </div><!-- End of #main-content -->
 
@@ -140,10 +150,6 @@
           Bhubaneswar-751019. Odisha<br> 
           <hr class="visible-xs">
         </section>
-        <!-- <section id="testimonials" class="col-sm-6">
-          <p>"Shree Hari"</p>
-          <p>"Shree Hari"</p>
-        </section> -->
       </div>
       <div class="text-center">&copy; Copyright Dhanwantari Medical Technologies 2020</div>
     </div>

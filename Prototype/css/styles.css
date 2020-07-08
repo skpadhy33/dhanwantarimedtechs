@@ -210,11 +210,20 @@ body {
 /* END HOME PAGE */
 
 /* ABOUT US PAGE */
-
 .page_description {
   text-align: justify;
   /*background: url('../images/logo_back.jpg') no-repeat;
   background-position: center;*/
+}
+/* EMD OF ABOUT PAGE */
+
+/* PRODUCT DESCRIPTION PAGE */
+.product_banner {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 768px;
 }
 
 /* MENU CATEGORIES PAGE */
@@ -248,22 +257,22 @@ body {
 /* END MENU CATEGORIES PAGE */
 
 /* SINGLE CATEGORY PAGE */
-.menu-item-tile {
+.product-item-tile {
   margin-bottom: 25px;
 }
-.menu-item-tile hr {
+.product-item-tile hr {
   width: 80%;
 }
-.menu-item-tile .menu-item-price {
+.product-item-tile .menu-item-price {
   font-size: 1.1em;
   text-align: right;
   margin-top: -15px;
   margin-right: -15px;
 }
-.menu-item-tile .menu-item-price span {
+.product-item-tile .menu-item-price span {
   font-size: .6em;
 }
-.menu-item-photo {
+.product-item-photo {
   position: relative;
   border: 2px solid #3F0C1F; 
   overflow: hidden;
@@ -273,7 +282,7 @@ body {
   margin-bottom: 20px;
   max-width: 250px;
 }
-.menu-item-photo div {
+.product-item-photo div {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -281,13 +290,13 @@ body {
   background-color: #557c3e;
   text-align: center;
 }
-.menu-item-description {
+.product-item-description {
   padding-right: 30px;
 }
-h3.menu-item-title {
+h3.product-item-title {
   margin: 0 0 10px;
 }
-.menu-item-details {
+.product-item-details {
   font-size: .9em;
   font-style: italic;
 }
