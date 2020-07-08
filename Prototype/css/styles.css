@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: #000;
   background-color: #FFFFFF;
   font-family: 'Oxygen', sans-serif;
 }
@@ -96,6 +96,7 @@ body {
   padding-bottom: 30px;
   background-color: #222;
   border-top: 0;
+  color: #fff;
 }
 .panel-footer div.row {
   margin-bottom: 15px;
@@ -207,6 +208,14 @@ body {
   opacity: .6;
 }
 /* END HOME PAGE */
+
+/* ABOUT US PAGE */
+
+.page_description {
+  text-align: justify;
+  /*background: url('../images/logo_back.jpg') no-repeat;
+  background-position: center;*/
+}
 
 /* MENU CATEGORIES PAGE */
 .category-tile { 
