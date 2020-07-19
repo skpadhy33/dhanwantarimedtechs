@@ -37,16 +37,19 @@ body {
     margin: 20px 5px 10px 10px;
 }
 
-.navbar-brand {
-    padding-top: 35px;
-    margin-top: 30px;
+.navbar-brand,
+.navbar-brand-center {
+    padding-top: 10px;
+    margin-top: 10px;
     margin-left: 20px;
     padding-left: 20px;
     /*margin-bottom: 20px;*/
 }
 
 .navbar-brand h1,
-.navbar-brand p {
+.navbar-brand p,
+.navbar-brand-center h1,
+.navbar-brand-center p {
     /* Company name */
     font-family: 'Lora', serif;
     color: #FFFF99;
@@ -62,21 +65,33 @@ body {
     text-align: center;
 }
 
+#brand_name_large {
+    margin-top: 40px;
+}
+
 #brand_name_medium {
+    margin-top: 30px;
     font-size: 2.0em;
     /*margin-left: -10px;*/
 }
 
-#brand_name_small h1 {
-    font-size: 2.0em;
+#brand_name_small {
     margin-left: auto;
     margin-right: auto;
+    width: 303.09px;
+}
+
+#brand_name_small h1 {
+    font-size: 2.0em;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 333.09px; */
 }
 
 #brand_name_small p {
-    font-size: 1.1em;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.0em;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .navbar-brand a:hover,
