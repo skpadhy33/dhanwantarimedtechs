@@ -1,433 +1,528 @@
 body {
-  font-size: 16px;
-  color: #000;
-  background-color: #FFFFFF;
-  font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #FFFFFF;
+    font-family: 'Oxygen', sans-serif;
 }
 
+
 /** HEADER **/
+
 #header-nav {
-  background-color: #006699; /*#87faed;*/ /* #36B9CC; */
-  border-radius: 0;
-  border: 0;
+    background-color: #006699;
+    /*#87faed;*/
+    /* #36B9CC; */
+    border-radius: 0;
+    border: 0;
 }
 
 #logo-img-lg {
-  background: url('../images/logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 20px 15px 10px 10px;
+    background: url('../images/logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 20px 15px 10px 10px;
 }
 
 #logo-img-sm {
-  background: url('../images/logo_ small.png') no-repeat;
-  width: 100px;
-  height: 100px;
-  margin: 20px 10px 10px 10px;
+    background: url('../images/logo_ small.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px 10px 10px;
 }
 
 #logo-img-xs {
-  background: url('../images/logo_xs.png') no-repeat;
-  width: 75px;
-  height: 75px;
-  margin: 20px 5px 10px 10px;
+    background: url('../images/logo_xs.png') no-repeat;
+    width: 75px;
+    height: 75px;
+    margin: 20px 5px 10px 10px;
 }
 
 .navbar-brand {
-  padding-top: 25px;
-  margin-top: 30px;
-  margin-left: 20px;
-  padding-left: 20px;
-  /*margin-bottom: 20px;*/
+    padding-top: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+    /*margin-bottom: 20px;*/
 }
-.navbar-brand h1 { /* Company name */
-  font-family: 'Lora', serif;
-  color:  #FFFF99; /*#87cefa;*/ /*#557c3e;*/
-  font-size: 2.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 10px;
-  line-height: .75;
+
+.navbar-brand h1 {
+    /* Company name */
+    font-family: 'Lora', serif;
+    color: #FFFF99;
+    /*#87cefa;*/
+    /*#557c3e;*/
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: .75;
 }
 
 #brand_name_medium {
-  font-size: 2.0em;
-  /*margin-left: -10px;*/
+    font-size: 2.0em;
+    /*margin-left: -10px;*/
 }
 
 #brand_name_small {
-  font-size: 2.0em;
-  /*margin-left: -10px;*/
+    font-size: 2.0em;
+    /*margin-left: -10px;*/
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
 }
 
 .nav-tabs {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
-.nav-tabs li > a{
-  color: #000000; /*black;*/
-  font-size: 1.25em;
-  /*font-weight: bold;*/
-}  
+.nav-tabs li>a {
+    color: #000000;
+    /*black;*/
+    font-size: 1.25em;
+    /*font-weight: bold;*/
+}
 
-.nav-tabs > li > a{
-  color: #ffffff; /*black;*/
-  font-size: 1.25em;
-  /*font-weight: bold;*/
-} 
+.nav-tabs>li>a {
+    color: #ffffff;
+    /*black;*/
+    font-size: 1.25em;
+    /*font-weight: bold;*/
+}
 
-.nav-tabs li > a:hover, .nav-tabs li > a:active{
-  color: #000000; /*black;*/
-  font-size: 1.25em;
-  font-weight: bold;
-}  
+.nav-tabs li>a:hover,
+.nav-tabs li>a:active {
+    color: #000000;
+    /*black;*/
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
 
 /* END HEADER */
 
+
 /* FOOTER */
+
 .panel-footer {
-  margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: #222;
-  border-top: 0;
-  color: #fff;
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: #fff;
 }
+
 .panel-footer div.row {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
-.phone a, .email a {
-  color: #87cefa;
-  text-decoration: none;
+.phone a,
+.email a {
+    color: #87cefa;
+    text-decoration: none;
 }
 
-.panel-footer a: hower, .panel-footer a: active {
-  text-decoration: none;
-  color: #ffffff;
+.panel-footer a: hower,
+.panel-footer a: active {
+    text-decoration: none;
+    color: #ffffff;
 }
 
-.panel-footer h2, .panel-footer h3 {
-  font-size: 1.25em;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.panel-footer h2,
+.panel-footer h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .panel-footer h2 {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
+
 
 /* END FOOTER */
 
 
-
 /* HOME PAGE */
+
 .intro {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  padding: 10px;
-  color: #000000;
-  /*background-color: #00ff00; */
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 10px;
+    color: #000000;
+    /*background-color: #00ff00; */
 }
 
 .page_h1 {
-  margin-top: 50px;
-  margin-bottom: 70px;
-  font-weight: bold;
-  font-size: 2.0em;
-  color: #000000;
-  text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    font-size: 2.0em;
+    color: #000000;
+    text-align: center;
 }
 
 .container .jumbotron {
-  /*box-shadow: 0 0 50px #3F0C1F;*/
-  /*border: 1px solid #3F0C1F;*/
-  margin-top: 100px;
-  margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-#ventilator-tile, #monitor-tile, #defibrilator-tile, #hhhfnc-tile, #ecg-tile, #sp-tile, #accessories-tile, 
+#ventilator-tile,
+#monitor-tile,
+#defibrilator-tile,
+#hhhfnc-tile,
+#ecg-tile,
+#sp-tile,
+#accessories-tile,
 #anesthesia-tile {
-  /*box-shadow: 0 0 50px #3F0C1F;*/
-  height: 250px;
-  width: 100%;
-  margin-bottom: 50px;
-  position: relative;
-  /*border: 2px solid #3F0C1F;*/
-  overflow: hidden;
+    /*box-shadow: 0 0 50px #3F0C1F;*/
+    height: 250px;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    /*border: 2px solid #3F0C1F;*/
+    overflow: hidden;
 }
-#monitor-tile:hover, #ventilator-tile:hover, #defibrilator-tile:hover, #sp-tile:hover, 
-#hhhfnc-tile:hover, #ecg-tile:hover, #accessories-tile:hower, #anesthesia-tile:hower {
-  box-shadow: 0 1px 5px 1px #cccccc;
+
+#monitor-tile:hover,
+#ventilator-tile:hover,
+#defibrilator-tile:hover,
+#sp-tile:hover,
+#hhhfnc-tile:hover,
+#ecg-tile:hover,
+#accessories-tile:hower,
+#anesthesia-tile:hower {
+    box-shadow: 0 1px 5px 1px #cccccc;
 }
+
 #ventilator-tile {
-  background: url('../images/ventilator/ventilator-tile.jpg') no-repeat;
-  background-position: center;
+    background: url('../images/ventilator/ventilator-tile.jpg') no-repeat;
+    background-position: center;
 }
+
 #monitor-tile {
-  background: url('../images/monitor/monitor-tile.jpg') no-repeat;
-  background-position: center;
+    background: url('../images/monitor/monitor-tile.jpg') no-repeat;
+    background-position: center;
 }
+
 #ecg-tile {
-  background: url('../images/ecg/ecg-tile.jpg') no-repeat;
-  background-position: center;
+    background: url('../images/ecg/ecg-tile.jpg') no-repeat;
+    background-position: center;
 }
+
 #sp-tile {
-  background: url('../images/sp/sp-tile.jpg') no-repeat;
-  background-position: center;
+    background: url('../images/sp/sp-tile.jpg') no-repeat;
+    background-position: center;
 }
+
 #defibrilator-tile {
-  background: url('../images/defibrilator/defibrilator-tile.jpg') no-repeat;
-  background-position: center;
-}/**/
+    background: url('../images/defibrilator/defibrilator-tile.jpg') no-repeat;
+    background-position: center;
+}
+
+
+/**/
+
 #anesthesia-tile {
-  background: url('../images/anesthesia/anesthesia-tile.jpg') no-repeat;
-  background-position: center;
+    background: url('../images/anesthesia/anesthesia-tile.jpg') no-repeat;
+    background-position: center;
 }
+
 #hhhfnc-tile {
-  background: url('../images/hhhfnc/hhhfnc-tile.jpg') no-repeat;
-  background-position: center;
+    background: url('../images/hhhfnc/hhhfnc-tile.jpg') no-repeat;
+    background-position: center;
 }
-#ventilator-tile span, #monitor-tile span, #defibrilator-tile span, #sp-tile span, #hhhfnc-tile span, #ecg-tile span,
-#accessories-tile span, #anesthesia-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .6;
+
+#ventilator-tile span,
+#monitor-tile span,
+#defibrilator-tile span,
+#sp-tile span,
+#hhhfnc-tile span,
+#ecg-tile span,
+#accessories-tile span,
+#anesthesia-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
 }
+
+
 /* END HOME PAGE */
 
+
 /* ABOUT US PAGE */
+
 .page_description {
-  text-align: justify;
-  /*background: url('../images/logo_back.jpg') no-repeat;
+    text-align: justify;
+    /*background: url('../images/logo_back.jpg') no-repeat;
   background-position: center;*/
 }
+
+
 /* EMD OF ABOUT PAGE */
 
+
 /* PRODUCT DESCRIPTION PAGE */
+
 .product_banner {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 768px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
 }
+
+.container .jumbotron_monitor {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.img-responsive.img-center {
+    margin: 0 auto;
+}
+
 
 /* MENU CATEGORIES PAGE */
-.category-tile { 
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 15px;
-}
-.category-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}
-.category-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+
+.category-tile {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
 }
 
-#menu-categories-title + div {
-  margin-bottom: 50px;
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
 }
+
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title+div {
+    margin-bottom: 50px;
+}
+
+
 /* END MENU CATEGORIES PAGE */
 
+
 /* SINGLE CATEGORY PAGE */
+
 .product-item-tile {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
+
 .product-item-tile hr {
-  width: 80%;
+    width: 80%;
 }
+
 .product-item-tile .menu-item-price {
-  font-size: 1.1em;
-  text-align: right;
-  margin-top: -15px;
-  margin-right: -15px;
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
 }
+
 .product-item-tile .menu-item-price span {
-  font-size: .6em;
+    font-size: .6em;
 }
+
 .product-item-photo {
-  position: relative;
-  border: 2px solid #3F0C1F; 
-  overflow: hidden;
-  padding: 0;
-  margin-right: -15px;
-  margin-left: auto;
-  margin-bottom: 20px;
-  max-width: 250px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
 }
+
 .product-item-photo div {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 80px;
-  background-color: #557c3e;
-  text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
 }
+
 .product-item-description {
-  padding-right: 30px;
+    padding-right: 30px;
 }
+
 h3.product-item-title {
-  margin: 0 0 10px;
+    margin: 0 0 10px;
 }
+
 .product-item-details {
-  font-size: .9em;
-  font-style: italic;
+    font-size: .9em;
+    font-style: italic;
 }
+
+
 /* END SINGLE CATEGORY PAGE */
 
 
 /********** Large devices only **********/
+
 @media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url('../images/jumbotron1_1200.jpg') no-repeat;
-    height: 675px;
-  }
+    .container .jumbotron {
+        background: url('../images/jumbotron1_1200.jpg') no-repeat;
+        height: 675px;
+    }
 }
+
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-  #navbar-brand h1 {
-    font-size: 2.0px;
-  }
-  /* End Header */
 
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron1_992.jpg') no-repeat;
-    height: 558px;
-  }
-  /* End Home Page */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+        background: url('../images/restaurant-logo_medium.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    #navbar-brand h1 {
+        font-size: 2.0px;
+    }
+    /* End Header */
+    /* Home Page */
+    .container .jumbotron {
+        background: url('../images/jumbotron1_992.jpg') no-repeat;
+        height: 558px;
+    }
+    /* End Home Page */
 }
+
 
 /********** Small devices only **********/
+
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron1_768.jpg') no-repeat;
-    height: 432px;
-  }
-  /* End Home Page */
+    /* Home Page */
+    .container .jumbotron {
+        background: url('../images/jumbotron1_768.jpg') no-repeat;
+        height: 432px;
+    }
+    /* End Home Page */
 }
 
+
 /********** Extra small devices only **********/
+
 @media (max-width: 767px) {
-  /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { /*Company name */
-    padding-top: 10px;
-    font-size: 1.0em; /* 1vw = 1% of viewport width */
-  }
-  .nav-tabs li > a{
-    color: #000000; /*black;*/
-    font-size: 1.0em;
-    /*font-weight: bold;*/
-  }  
-
-  .nav-tabs > li > a{
-    color: #ffffff; /*black;*/
-    font-size: 1.0em;
-    /*font-weight: bold;*/
-  } 
-
-  
-  /* End Header */
-
-  /* Footer */
-  .panel-footer section {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
-  }
-  .panel-footer section hr {
-    width: 50%;
-  }
-  /* End Footer */
-
-  /* Home Page */
-  .container .jumbotron {
-    margin-top: 60px;
-    padding: 0;
-  }
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
-
-  .menu-item-photo {
-    margin-right: auto;
-  }
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-  }
-  .menu-item-description {
-    text-align: center;;
-  }
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        /*Company name */
+        padding-top: 10px;
+        font-size: 1.0em;
+        /* 1vw = 1% of viewport width */
+    }
+    .nav-tabs li>a {
+        color: #000000;
+        /*black;*/
+        font-size: 1.0em;
+        /*font-weight: bold;*/
+    }
+    .nav-tabs>li>a {
+        color: #ffffff;
+        /*black;*/
+        font-size: 1.0em;
+        /*font-weight: bold;*/
+    }
+    /* End Header */
+    /* Footer */
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3) {
+        margin-bottom: 0;
+        /* margin already exists on the whole row */
+    }
+    .panel-footer section hr {
+        width: 50%;
+    }
+    /* End Footer */
+    /* Home Page */
+    .container .jumbotron {
+        margin-top: 60px;
+        padding: 0;
+    }
+    #menu-tile,
+    #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+    .menu-item-photo {
+        margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price {
+        text-align: center;
+    }
+    .menu-item-description {
+        text-align: center;
+    }
+    /* Monitor Page*/
+    .container .jumbotron_monitor {
+        margin-top: 60px;
+        padding: 0;
+    }
+    /*Monitor Page Ends*/
 }
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
 @media (max-width: 479px) {
-  /* Header */
-  .navbar-brand h1 { /* Company name */
-    padding-top: 5px;
-    font-size: 6vw;
-  }
-  /* End Header */
-  
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
+    /* Header */
+    .navbar-brand h1 {
+        /* Company name */
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+    /* End Header */
+    /* Home page */
+    #menu-tile,
+    #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
 }
-
-
-
