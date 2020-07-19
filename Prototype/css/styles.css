@@ -45,7 +45,8 @@ body {
     /*margin-bottom: 20px;*/
 }
 
-.navbar-brand h1 {
+.navbar-brand h1,
+.navbar-brand p {
     /* Company name */
     font-family: 'Lora', serif;
     color: #FFFF99;
@@ -57,7 +58,8 @@ body {
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 10px;
-    line-height: .75;
+    line-height: 1.0;
+    text-align: center;
 }
 
 #brand_name_medium {
@@ -65,9 +67,16 @@ body {
     /*margin-left: -10px;*/
 }
 
-#brand_name_small {
+#brand_name_small h1 {
     font-size: 2.0em;
-    /*margin-left: -10px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#brand_name_small p {
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-brand a:hover,
