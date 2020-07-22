@@ -330,18 +330,23 @@ body {
     align-items: center;
 }
 
+.product-item-tile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .product-item-tile hr {
     width: 80%;
 }
 
 .product-item-photo {
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
     padding: 0;
-    margin-right: -15px;
+    margin-right: auto;
     margin-left: auto;
-    margin-bottom: 20px;
-    max-width: 250px;
+    /* margin-bottom: 20px; */
+    max-width: 350px;
 }
 
 .product-item-description {
