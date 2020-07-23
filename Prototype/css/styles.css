@@ -368,8 +368,13 @@ h2.product-item-title {
 }
 
 .product-detailed-description h2 {
-    font-size: larger;
+    font-size: x-large;
     font-weight: bold;
+}
+
+.product-description-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
