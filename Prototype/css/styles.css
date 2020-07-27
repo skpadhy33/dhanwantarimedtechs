@@ -9,7 +9,8 @@ body {
 /** HEADER **/
 
 #header-nav {
-    background-color: #006699;
+    background-color: darkblue;
+    /* #006699 */
     /*#87faed;*/
     /* #36B9CC; */
     border-radius: 0;
