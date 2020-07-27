@@ -9,7 +9,7 @@ body {
 /** HEADER **/
 
 #header-nav {
-    background-color: darkblue;
+    background-color: darkslateblue;
     /* #006699 */
     /*#87faed;*/
     /* #36B9CC; */
@@ -135,6 +135,10 @@ body {
     /*black;*/
     font-size: 1.25em;
     font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 
