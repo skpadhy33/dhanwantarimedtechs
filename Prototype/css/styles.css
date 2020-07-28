@@ -9,8 +9,7 @@ body {
 /** HEADER **/
 
 #header-nav {
-    background-color: darkslateblue;
-    /* #006699 */
+    background-color: #006699;
     /*#87faed;*/
     /* #36B9CC; */
     border-radius: 0;
@@ -115,24 +114,25 @@ body {
     margin-top: 25px;
 }
 
+.dropdown li a {
+    background-color: skyblue;
+}
+
 .nav-tabs li>a {
     color: #000000;
-    /*black;*/
     font-size: 1.25em;
-    /*font-weight: bold;*/
+    /* padding: 10px; */
 }
 
 .nav-tabs>li>a {
     color: #ffffff;
-    /*black;*/
     font-size: 1.25em;
-    /*font-weight: bold;*/
+    border-radius: 10px;
 }
 
 .nav-tabs li>a:hover,
 .nav-tabs li>a:active {
     color: #000000;
-    /*black;*/
     font-size: 1.25em;
     font-weight: bold;
 }
