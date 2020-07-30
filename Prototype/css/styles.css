@@ -112,7 +112,6 @@ body {
 
 .nav-tabs {
     margin-top: 25px;
-    /* background-color: green; */
 }
 
 .dropdown li a {
@@ -144,6 +143,130 @@ body {
 
 
 /* END HEADER */
+
+#search-box {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: medium;
+    padding: 10px;
+    /* padding: 12px 20px 12px 40px; */
+    /* border: 1px darkblue; */
+    border-radius: 10px;
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* SIDE-NAV */
+
+
+/* The side navigation menu */
+
+#side-nav-btn {
+    background-color: skyblue;
+    /* #025985 */
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#side-nav-btn:hover,
+#side-nav-btn :active {
+    background-color: white;
+    font-weight: bold;
+}
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #006699;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    background-origin: 2px darkblue;
+}
+
+.sidenav div {
+    margin: 20px 25px 20px 25px;
+    font-size: medium;
+    color: white;
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav li {
+    list-style: none;
+}
+
+.sidenav h2 {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* END OF SIDE-NAV */
 
 
 /* FOOTER */
@@ -201,10 +324,10 @@ body {
 
 .page_h1 {
     margin-top: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     font-weight: bold;
-    font-size: 2.0em;
-    color: #000000;
+    font-size: xx-large;
+    color: #006699;
     text-align: center;
 }
 
@@ -337,13 +460,10 @@ body {
 }
 
 .product-item-tile {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-    box-shadow: 5px gray;
-    border: 5px black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightgray;
     box-sizing: border-box;
 }
 
@@ -358,19 +478,16 @@ body {
     margin-right: auto;
     margin-left: auto;
     /* margin-bottom: 20px; */
-    max-width: 350px;
+    max-width: 250px;
+    max-height: 300px;
 }
 
 .product-item-description {
     padding-right: 30px;
 }
 
-h2.product-item-title {
-    margin: 0 0 10px;
-}
-
 .product-item-details {
-    font-size: 1.0em;
+    font-size: medium;
     font-style: italic;
 }
 
@@ -380,13 +497,14 @@ h2.product-item-title {
 }
 
 .product-detailed-description h2 {
-    font-size: x-large;
+    font-size: medium;
     font-weight: bold;
+    color: #006699;
 }
 
 .product-description-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
