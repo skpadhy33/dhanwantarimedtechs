@@ -171,9 +171,9 @@ body {
 /* The side navigation menu */
 
 #side-nav-btn {
-    background-color: skyblue;
+    background-color: #006699;
     font-size: large;
-    color: black;
+    color: white;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid black;
@@ -276,6 +276,16 @@ body {
         /* padding: 12px 20px 12px 40px; */
         /* border: 1px darkblue; */
         border-radius: 10px;
+        width: 330px;
+    }
+    #side-nav-btn {
+        background-color: skyblue;
+        font-size: medium;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        /* position: fixed; */
     }
 }
 
