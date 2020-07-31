@@ -81,7 +81,9 @@
 
         </nav>
         <!-- #header-nav -->
-        <button id="side-nav-btn" onclick="openNav()" alt="Open Seaarch/Filter">Open Search/Filter &gt;&gt;</button>
+        <button id="side-nav-btn" onclick="openNav()" alt="Open Search">
+            <span class="glyphicon glyphicon-search"></span>
+        </button>
 
     </header>
 
@@ -95,52 +97,6 @@
                 <p>Search by model name or product category or name of manufacturer</p>
             </div>
             <input id="search-box" type="text" onkeyup="myFunction()" placeholder="Search our catalog">
-
-            <div>
-                <h2>Add Filters</h2>
-                <p>Check to hide corresponding product category</p>
-            </div>
-
-            <div>
-                <ul id="filters">
-                    <li>
-                        <input class="filter-checkbox" checked type="checkbox" value="ventilator-tile" id="filter-ventilator-tile" />
-                        <label for="filter-categorya">Ventilators</label>
-                    </li>
-                    <li>
-                        <input class="filter-checkbox" type="checkbox" value="monitor-tile" id="filter-monitor-tile" />
-                        <label for="filter-categoryb">Monitors</label>
-                    </li>
-                    <li>
-                        <input class="filter-checkbox" type="checkbox" value="ecg-tile" id="filter-ecg-tile" />
-                        <label for="filter-categorya">ECG Machines</label>
-                    </li>
-                    <li>
-                        <input class="filter-checkbox" type="checkbox" value="defibrilator-tile" id="filter-defibrilator-tile" />
-                        <label for="filter-categoryb">Defibrilators</label>
-                    </li>
-                    <li>
-                        <input class="filter-checkbox" type="checkbox" value="sp-tile" id="filter-sp-tile" />
-                        <label for="filter-categorya">Syringe Pumps/label>
-                    </li>
-                    <li>
-                        <input class="filter-checkbox" type="checkbox" value="hhhfnc-tile" id="filter-hhhfnc-tile" />
-                        <label for="filter-categoryb">HHHFNC</label>
-                    </li>
-                    <li>
-                        <input class="filter-checkbox" type="checkbox" value="irw-tile" id="filter-irw-tile" />
-                        <label for="filter-categorya">Infant Radiant Warmers</label>
-                    </li>
-                    <li>
-                        <input class="filter-checkbox" type="checkbox" value="pt-tile" id="filter-pt-tile" />
-                        <label for="filter-categoryb">LED Phototherapy Units</label>
-                    </li>
-                    <li>
-                        <input class="filter-checkbox" type="checkbox" value="anesthesia-tile" id="filter-anesthesia-tile" />
-                        <label for="filter-categoryb">Anesthesia Workshops</label>
-                    </li>
-                </ul>
-            </div>
 
         </div>
 
@@ -606,16 +562,6 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
-    </script>
-
-    <script>
-        $('input').(function() {
-            var category = $(this).val();
-
-            if (!$(this).attr('checked')) $('.' + category).hide();
-            else $('.' + category).show();
-
-        });
     </script>
 
 </body>

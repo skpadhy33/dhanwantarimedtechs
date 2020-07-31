@@ -172,22 +172,22 @@ body {
 
 #side-nav-btn {
     background-color: skyblue;
-    /* #025985 */
+    font-size: large;
     color: black;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid black;
+    /* position: fixed; */
 }
 
 #side-nav-btn:hover,
 #side-nav-btn :active {
     background-color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .sidenav {
     height: 100%;
-    /* 100% Full-height */
     width: 0;
     /* 0 width - change this with JavaScript */
     position: fixed;
@@ -202,22 +202,13 @@ body {
     overflow-x: hidden;
     /* Disable horizontal scroll */
     padding-top: 60px;
-    transition: 0.5s;
+    transition: 1s;
     /* 0.5 second transition effect to slide in the sidenav */
     background-origin: 2px darkblue;
 }
 
-.sidenav div {
-    margin: 20px 25px 20px 25px;
-    font-size: medium;
-    color: white;
-}
-
-
-/* The navigation menu links */
-
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    /* padding: 8px 8px 8px 32px; */
     text-decoration: none;
     font-size: medium;
     color: white;
@@ -225,12 +216,15 @@ body {
     transition: 0.3s;
 }
 
+.sidenav a:hover,
+.sidenav a:active {
+    font-size: larger;
+}
 
-/* When you mouse over the navigation links, change their color */
-
-.sidenav a:hover {
-    font-weight: bold;
-    font-size: large;
+.sidenav div {
+    margin: 20px 25px 20px 25px;
+    font-size: medium;
+    color: white;
 }
 
 
@@ -242,10 +236,6 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
-
-.sidenav li {
-    list-style: none;
 }
 
 .sidenav h2 {
@@ -260,8 +250,31 @@ body {
     .sidenav {
         padding-top: 15px;
     }
+}
+
+@media (max-width: 991px) {
+    .sidenav {
+        height: 50%;
+        background-color: skyblue;
+    }
+    .sidenav div {
+        margin: 10px 10px 10px 10px;
+        font-size: small;
+        color: black;
+    }
     .sidenav a {
-        font-size: 18px;
+        color: black;
+    }
+    #search-box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: small;
+        padding: 5px;
+        /* padding: 12px 20px 12px 40px; */
+        /* border: 1px darkblue; */
+        border-radius: 10px;
     }
 }
 
