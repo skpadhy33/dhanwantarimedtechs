@@ -128,9 +128,8 @@ body {
 .nav-tabs>li>a {
     color: #ffffff;
     font-size: 1.25em;
-    font-weight: bold;
     border-radius: 10px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .nav-tabs li>a:hover,
@@ -142,6 +141,15 @@ body {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+
+/* For small devices */
+
+@media(max-width: 768px) {
+    .nav-tabs {
+        font-size: small;
+    }
 }
 
 
@@ -493,6 +501,12 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px lightgray;
     box-sizing: border-box;
+}
+
+.product-item-tile a:hover,
+.product-item-tile a:active {
+    font-weight: bold;
+    color: black;
 }
 
 .product-item-tile hr {
