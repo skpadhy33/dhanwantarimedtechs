@@ -254,7 +254,7 @@ body {
 
 @media (max-width: 991px) {
     .sidenav {
-        height: 50%;
+        height: 150;
         background-color: skyblue;
     }
     .sidenav div {
