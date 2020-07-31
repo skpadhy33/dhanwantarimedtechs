@@ -46,7 +46,8 @@ body {
 .navbar-brand h1 {
     /* Company name */
     font-family: 'Lora', serif;
-    color: #FFFF99;
+    color: wheat;
+    /* #FFFF99; */
     /*#87cefa;*/
     /*#557c3e;*/
     font-size: 2.5em;
@@ -127,13 +128,15 @@ body {
 .nav-tabs>li>a {
     color: #ffffff;
     font-size: 1.25em;
+    font-weight: bold;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .nav-tabs li>a:hover,
 .nav-tabs li>a:active {
     color: #000000;
-    font-size: 1.25em;
+    font-size: 1.35em;
     font-weight: bold;
 }
 
@@ -184,6 +187,7 @@ body {
 #side-nav-btn :active {
     background-color: white;
     font-weight: bolder;
+    color: black;
 }
 
 .sidenav {
@@ -246,17 +250,11 @@ body {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-}
-
 @media (max-width: 991px) {
     .sidenav {
         height: 200px;
         background-color: skyblue;
-        /* max-resolution: 0; */
+        position: fixed;
     }
     .sidenav div {
         margin: 10px 10px 10px 10px;
@@ -286,6 +284,12 @@ body {
         border-radius: 10px;
         border: 1px solid black;
         /* position: fixed; */
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
     }
 }
 
