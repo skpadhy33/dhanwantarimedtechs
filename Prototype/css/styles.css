@@ -164,11 +164,24 @@ width: 303.09px;
     text-align: center;
 }
 
+.page_h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: largeer;
+    color: #006699;
+}
+
 @media(max-width: 768px) {
     .page_h1 {
         margin-top: 20px;
         margin-bottom: 20px;
         font-size: large;
+    }
+    .page_h2 {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-size: medium;
     }
 }
 
@@ -320,6 +333,40 @@ width: 303.09px;
 
 
 /* END OF SIDE-NAV */
+
+
+/* miscellaneous page */
+
+.misc-item-row {
+    box-shadow: 5px 5px lightgray;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.misc-item-col {
+    margin: 20px 0 12px 0;
+}
+
+.misc-item-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: largeer;
+    color: #006699;
+}
+
+.misc-item-photo img {
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    height: 250px;
+}
+
+.misc-item-description {
+    margin: 10px;
+    text-align: center;
+}
 
 
 /* FOOTER */
