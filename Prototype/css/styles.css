@@ -694,6 +694,9 @@ background-position: center;*/
 
 @media (max-width: 767px) {
     /* Header */
+    body {
+        font-size: small;
+    }
     .navbar-brand {
         padding-top: 10px;
         height: 80px;
