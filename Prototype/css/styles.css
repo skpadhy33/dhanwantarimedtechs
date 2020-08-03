@@ -593,6 +593,10 @@ background-position: center;*/
         max-height: 300px;
     }
     
+    .product-item-photo img {
+        border-radius: 10px;
+    }
+    
     .product-item-description {
         padding-right: 30px;
         padding-top: 20px;
