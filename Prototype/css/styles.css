@@ -366,6 +366,10 @@ width: 303.09px;
         }
     }
     
+    .misc-item-list {
+        list-style: none;
+    }
+    
     .misc-item-row {
         box-shadow: 5px 5px lightgray;
         border-radius: 10px;
