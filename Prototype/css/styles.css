@@ -273,6 +273,8 @@ width: 303.09px;
         transition: 1s;
         /* 0.5 second transition effect to slide in the sidenav */
         background-origin: 2px darkblue;
+        border-radius: 10px;
+        border: 1px solid black;
     }
     
     .sidenav a {
@@ -312,7 +314,7 @@ width: 303.09px;
     
     @media (max-width: 991px) {
         .sidenav {
-            height: 200px;
+            height: 250px;
             background-color: skyblue;
             position: fixed;
         }
@@ -334,7 +336,7 @@ width: 303.09px;
             /* padding: 12px 20px 12px 40px; */
             /* border: 1px darkblue; */
             border-radius: 10px;
-            width: 330px;
+            width: 270px;
         }
         #side-nav-btn {
             background-color: skyblue;
