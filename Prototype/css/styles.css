@@ -209,8 +209,7 @@ width: 303.09px;
         padding: 10px;
     }
     
-    .customer-support-link:hover,
-    .customer-support-link:active {
+    .customer-support-link:hover {
         font-weight: bold;
         text-decoration: none;
         background-color: white;
