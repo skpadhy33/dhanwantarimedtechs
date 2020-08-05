@@ -147,6 +147,42 @@ width: 303.09px;
     }
     /* END HEADER */
     
+    .item-1 {
+        position: relative;
+        margin: 20px;
+        display: block;
+        /* top: 2em; */
+        width: 100%;
+        font-size: large;
+        font-weight: bolder;
+        color: rgb(54, 54, 233);
+        animation-duration: 15s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    
+    .item-1 {
+        animation-name: anim-1;
+    }
+    
+    @keyframes anim-1 {
+        0%,
+        20% {
+            left: 10%;
+            opacity: 1;
+        }
+        20%,
+        20% {
+            left: 0%;
+            opacity: 1;
+        }
+        20%,
+        20% {
+            left: 100%;
+            opacity: 1;
+        }
+    }
+    
     .page_h1 {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -219,12 +255,12 @@ width: 303.09px;
     @media (max-width: 991px) {
         .customer-support-link {
             margin-right: 15px;
-            color: black;
+            color: white;
             font-size: small;
             border: 1px solid black;
-            background-color: skyblue;
+            background-color: #006699;
             border-radius: 10px;
-            padding: 5px;
+            padding: 10px;
         }
         .customer-support-link:hover,
         .customer-support-link:active {
@@ -314,16 +350,11 @@ width: 303.09px;
     @media (max-width: 991px) {
         .sidenav {
             height: 250px;
-            background-color: skyblue;
             position: fixed;
         }
         .sidenav div {
             margin: 10px 10px 10px 10px;
             font-size: small;
-            color: black;
-        }
-        .sidenav a {
-            color: black;
         }
         #search-box {
             margin-top: 10px;
@@ -338,9 +369,7 @@ width: 303.09px;
             width: 270px;
         }
         #side-nav-btn {
-            background-color: skyblue;
             font-size: medium;
-            color: black;
             padding: 10px;
             border-radius: 10px;
             border: 1px solid black;
