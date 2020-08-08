@@ -39,6 +39,7 @@
     .navbar-brand-center {
         padding-top: 10px;
         margin-top: 10px;
+        /* clear: right; */
     }
     
     .navbar-brand h1 {
@@ -109,6 +110,8 @@ width: 303.09px;
     
     .nav-tabs {
         margin-top: 25px;
+        float: left;
+        clear: both;
     }
     
     .dropdown li a {
@@ -177,29 +180,45 @@ width: 303.09px;
         }
     }
     
+    .search-box-container {
+        display: inline;
+        margin: 30px;
+    }
+    
     #search-box {
         width: 250px;
         margin-top: 10px;
         margin-bottom: 20px;
         margin-left: 25px;
-        margin-right: 25px;
+        margin-right: 0px;
         font-size: medium;
-        padding: 10px;
-        /* padding: 12px 20px 12px 40px; */
-        /* border: 1px darkblue; */
-        border-radius: 10px;
+        padding: 9px;
+        border-radius: 5px;
     }
     
-    #myUL {
-        /* Remove default list styling */
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+    #search-btn {
+        font-size: medium;
+        font-weight: bold;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        margin-left: -6px;
+        background-color: #006699;
+        color: white;
+    }
+    
+    #search-btn:hover,
+    #search-btn:active {
+        background-color: #022e44;
     }
     /* customer-support-link */
     
+    .customer-support-container {
+        display: inline;
+        margin: 20px;
+    }
+    
     .customer-support-link {
-        margin-right: 30px;
+        /* margin-left: 40px; */
         text-decoration: none;
         color: white;
         font-size: large;
@@ -209,16 +228,17 @@ width: 303.09px;
         padding: 10px;
     }
     
-    .customer-support-link:hover {
+    .customer-support-link:hover,
+    .customer-support-link:active {
         font-weight: bold;
         text-decoration: none;
-        background-color: white;
-        color: black;
+        background-color: #022e44;
+        color: white;
     }
     
-    @media (max-width: 991px) {
+    @media (max-width: 768px) {
         .customer-support-link {
-            margin-right: 15px;
+            margin-left: 15px;
             color: white;
             font-size: small;
             border: 1px solid black;
@@ -226,127 +246,28 @@ width: 303.09px;
             border-radius: 10px;
             padding: 10px;
         }
-        .customer-support-link:hover,
-        .customer-support-link:active {
-            background-color: white;
-            color: black;
+        #search-box {
+            width: 150px;
+            margin-top: 10px;
+            font-size: small;
+            padding: 5px;
+        }
+        #search-btn {
+            font-size: small;
+            font-weight: normal;
+            padding: 4px 10px 4px 10px;
+            margin-left: -6px;
+            border-radius: 7px;
         }
     }
     /* End of .customer-support-link */
-    /* SIDE-NAV */
-    /* The side navigation menu */
     
-    #side-nav-btn {
-        background-color: #006699;
-        font-size: large;
-        color: white;
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid black;
-        /* position: fixed; */
+    #myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
     }
-    
-    #side-nav-btn:hover,
-    #side-nav-btn :active {
-        background-color: white;
-        font-weight: bolder;
-        color: black;
-    }
-    
-    .sidenav {
-        height: 100%;
-        width: 0;
-        /* 0 width - change this with JavaScript */
-        position: fixed;
-        /* Stay in place */
-        z-index: 1;
-        /* Stay on top */
-        top: 0;
-        /* Stay at the top */
-        left: 0;
-        background-color: #006699;
-        /* Black*/
-        overflow-x: hidden;
-        /* Disable horizontal scroll */
-        padding-top: 60px;
-        transition: 1s;
-        /* 0.5 second transition effect to slide in the sidenav */
-        background-origin: 2px darkblue;
-        border-radius: 10px;
-        border: 1px solid black;
-    }
-    
-    .sidenav a {
-        /* padding: 8px 8px 8px 32px; */
-        text-decoration: none;
-        font-size: medium;
-        color: white;
-        display: block;
-        transition: 0.3s;
-    }
-    
-    .sidenav a:hover,
-    .sidenav a:active {
-        font-size: larger;
-    }
-    
-    .sidenav div {
-        margin: 20px 25px 20px 25px;
-        font-size: medium;
-        color: white;
-    }
-    /* Position and style the close button (top right corner) */
-    
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-    
-    .sidenav h2 {
-        font-size: large;
-        font-weight: bold;
-    }
-    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-    
-    @media (max-width: 991px) {
-        .sidenav {
-            height: 250px;
-            position: fixed;
-        }
-        .sidenav div {
-            margin: 10px 10px 10px 10px;
-            font-size: small;
-        }
-        #search-box {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            margin-left: 10px;
-            margin-right: 10px;
-            font-size: small;
-            padding: 5px;
-            /* padding: 12px 20px 12px 40px; */
-            /* border: 1px darkblue; */
-            border-radius: 10px;
-            width: 270px;
-        }
-        #side-nav-btn {
-            font-size: medium;
-            padding: 10px;
-            border-radius: 10px;
-            border: 1px solid black;
-            /* position: fixed; */
-        }
-    }
-    
-    @media screen and (max-height: 450px) {
-        .sidenav {
-            padding-top: 15px;
-        }
-    }
-    /* END OF SIDE-NAV */
     /* miscellaneous page */
     
     .content-region {
