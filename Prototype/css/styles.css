@@ -181,8 +181,10 @@ width: 303.09px;
     }
     
     .search-box-container {
-        display: inline;
-        margin: 20px 10px 20px auto;
+        width: 350px;
+        margin-top: 10px;
+        margin-left: auto;
+        /* margin-right: 10px; */
     }
     
     #search-box {
@@ -213,10 +215,10 @@ width: 303.09px;
     /* customer-support-link */
     
     .customer-support-container {
-        display: inline;
+        /* display: inline; */
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         margin-right: auto;
     }
     
@@ -241,25 +243,18 @@ width: 303.09px;
     
     @media (max-width: 768px) {
         .customer-support-link {
-            /* margin-left: 15px; */
-            color: white;
-            font-size: smaller;
-            border: 1px solid black;
-            background-color: #006699;
-            border-radius: 10px;
-            padding: 10px;
-        }
-        #search-box {
-            width: 100px;
-            margin-top: 10px;
             font-size: smaller;
             padding: 5px;
         }
+        #search-box {
+            width: 200px;
+            font-size: small;
+            padding: 5px;
+        }
         #search-btn {
-            font-size: smaller;
+            font-size: small;
             font-weight: normal;
             padding: 4px 10px 4px 10px;
-            margin-left: -6px;
             border-radius: 7px;
         }
     }
