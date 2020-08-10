@@ -218,12 +218,11 @@ width: 303.09px;
         /* display: inline; */
         margin-top: 20px;
         margin-bottom: 20px;
-        /* margin-left: 10px; */
+        margin-left: 0px;
         margin-right: auto;
     }
     
     .customer-support-link {
-        /* margin-left: 40px; */
         text-decoration: none;
         color: white;
         font-size: large;
@@ -231,6 +230,7 @@ width: 303.09px;
         background-color: #006699;
         border-radius: 10px;
         padding: 10px;
+        margin-left: 0px;
     }
     
     .customer-support-link:hover,
@@ -247,15 +247,26 @@ width: 303.09px;
             padding: 5px;
         }
         #search-box {
-            width: 200px;
+            width: 150px;
             font-size: small;
             padding: 5px;
+            margin-left: 0px;
         }
         #search-btn {
             font-size: small;
             font-weight: normal;
             padding: 4px 10px 4px 10px;
             border-radius: 7px;
+        }
+        .customer-support-container {
+            width: 175px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .search-box-container {
+            width: 190px;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     /* End of .customer-support-link */
