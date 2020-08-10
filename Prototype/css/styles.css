@@ -182,14 +182,14 @@ width: 303.09px;
     
     .search-box-container {
         width: 350px;
-        margin-top: 10px;
+        margin-top: 0;
         margin-left: auto;
         /* margin-right: 10px; */
     }
     
     #search-box {
         width: 250px;
-        margin-top: 10px;
+        margin-top: 0px;
         margin-bottom: 20px;
         margin-left: 25px;
         margin-right: 0px;
@@ -204,6 +204,7 @@ width: 303.09px;
         padding: 10px 20px 10px 20px;
         border-radius: 5px;
         margin-left: -6px;
+        margin-top: -8px;
         background-color: #006699;
         color: white;
     }
@@ -216,7 +217,7 @@ width: 303.09px;
     
     .customer-support-container {
         /* display: inline; */
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 20px;
         margin-left: 0px;
         margin-right: auto;
@@ -254,8 +255,8 @@ width: 303.09px;
         }
         #search-btn {
             font-size: small;
-            font-weight: normal;
-            padding: 4px 10px 4px 10px;
+            font-weight: light;
+            padding: 7px 10px 7px 10px;
             border-radius: 7px;
         }
         .customer-support-container {
