@@ -194,7 +194,7 @@ width: 303.09px;
         margin-left: 25px;
         margin-right: 0px;
         font-size: medium;
-        padding: 9px;
+        padding: 10px;
         border-radius: 5px;
     }
     
@@ -255,8 +255,8 @@ width: 303.09px;
         }
         #search-btn {
             font-size: small;
-            font-weight: light;
-            padding: 7px 10px 7px 10px;
+            font-weight: bold;
+            padding: 5px 10px 5px 10px;
             border-radius: 7px;
         }
         .customer-support-container {
