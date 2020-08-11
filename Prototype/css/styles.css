@@ -196,6 +196,7 @@ width: 303.09px;
         font-size: medium;
         padding: 10px;
         border-radius: 5px;
+        box-shadow: 0px;
     }
     
     #search-btn {
@@ -207,6 +208,7 @@ width: 303.09px;
         margin-top: -8px;
         background-color: #006699;
         color: white;
+        box-shadow: 0px;
     }
     
     #search-btn:hover,
@@ -252,12 +254,13 @@ width: 303.09px;
             font-size: small;
             padding: 5px;
             margin-left: 0px;
+            border-radius: 5px;
         }
         #search-btn {
             font-size: small;
             font-weight: bold;
             padding: 5px 10px 5px 10px;
-            border-radius: 7px;
+            border-radius: 5px;
         }
         .customer-support-container {
             width: 175px;
@@ -381,35 +384,11 @@ width: 303.09px;
     .mySlides {
         display: none;
     }
-    /* Next & previous buttons */
     
-    .prev,
-    .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-    }
-    /* Position the "next button" to the right */
-    
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-    /* On hover, add a black background color with a little bit see-through */
-    
-    .prev:hover,
-    .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-        text-decoration: none;
+    .mySlides img {
+        border-radius: 10px;
+        box-shadow: 5px 5px lightgray;
+        border: 1px solid darkblue;
     }
     /* Caption text */
     
@@ -423,33 +402,6 @@ width: 303.09px;
         text-align: center;
         text-shadow: 2px grey;
         font-weight: bold;
-    }
-    /* Number text (1/3 etc) */
-    
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-    }
-    /* The dots/bullets/indicators */
-    
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: skyblue;
-        /* #bbb; */
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-    
-    .active,
-    .dot:hover {
-        background-color: #006699;
     }
     /* Fading animation */
     
@@ -525,102 +477,6 @@ width: 303.09px;
         color: #000000;
         /*background-color: #00ff00; */
     }
-    
-    .container .jumbotron {
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    
-    #ventilator-tile,
-    #monitor-tile,
-    #defibrilator-tile,
-    #hhhfnc-tile,
-    #ecg-tile,
-    #sp-tile,
-    #accessories-tile,
-    #anesthesia-tile,
-    #irw-tile {
-        /*box-shadow: 0 0 50px #3F0C1F;*/
-        height: 250px;
-        width: 100%;
-        margin-bottom: 50px;
-        position: relative;
-        /*border: 2px solid #3F0C1F;*/
-        overflow: hidden;
-    }
-    
-    #monitor-tile:hover,
-    #ventilator-tile:hover,
-    #defibrilator-tile:hover,
-    #sp-tile:hover,
-    #hhhfnc-tile:hover,
-    #ecg-tile:hover,
-    #accessories-tile:hower,
-    #anesthesia-tile:hower,
-    #irw-tile:hover {
-        box-shadow: 0 1px 5px 1px #cccccc;
-    }
-    
-    #ventilator-tile {
-        background: url('../images/ventilator/ventilator-tile.jpg') no-repeat;
-        background-position: center;
-    }
-    
-    #monitor-tile {
-        background: url('../images/monitor/monitor-tile.jpg') no-repeat;
-        background-position: center;
-    }
-    
-    #ecg-tile {
-        background: url('../images/ecg/ecg-tile.jpg') no-repeat;
-        background-position: center;
-    }
-    
-    #sp-tile {
-        background: url('../images/sp/sp-tile.jpg') no-repeat;
-        background-position: center;
-    }
-    
-    #defibrilator-tile {
-        background: url('../images/defibrilator/defibrilator-tile.jpg') no-repeat;
-        background-position: center;
-    }
-    
-    #anesthesia-tile {
-        background: url('../images/anesthesia/anesthesia-tile.jpg') no-repeat;
-        background-position: center;
-    }
-    
-    #hhhfnc-tile {
-        background: url('../images/hhhfnc/hhhfnc-tile.jpg') no-repeat;
-        background-position: center;
-    }
-    
-    #irw-tile {
-        background: url('../images/irw/irw-tile.jpg') no-repeat;
-        background-position: center;
-    }
-    
-    #ventilator-tile span,
-    #monitor-tile span,
-    #defibrilator-tile span,
-    #sp-tile span,
-    #hhhfnc-tile span,
-    #ecg-tile span,
-    #accessories-tile span,
-    #anesthesia-tile span,
-    #irw-tile span {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        font-size: 1.6em;
-        text-transform: uppercase;
-        background-color: #000;
-        color: #fff;
-        opacity: .6;
-    }
     /* END HOME PAGE */
     /* ABOUT US PAGE */
     
@@ -632,13 +488,12 @@ background-position: center;*/
     /* EMD OF ABOUT PAGE */
     /* PRODUCT CATEGORIES AND DESCRIPTION PAGE */
     
-    .container .jumbotron_product {
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
-    
     .img-responsive.img-center {
         margin: 0 auto;
+    }
+    
+    .products-list {
+        list-style: none;
     }
     
     .product-item-tile {
@@ -743,40 +598,6 @@ background-position: center;*/
         margin-bottom: 20px;
     }
     /* END OF PRODUCT CATEGORIES AND DESCRIPTION PAGE */
-    /* MENU CATEGORIES PAGE */
-    
-    .category-tile {
-        position: relative;
-        border: 2px solid #3F0C1F;
-        overflow: hidden;
-        width: 200px;
-        height: 200px;
-        margin: 0 auto 15px;
-    }
-    
-    .category-tile span {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        font-size: 1.2em;
-        text-transform: uppercase;
-        background-color: #000;
-        color: #fff;
-        opacity: .8;
-    }
-    
-    .category-tile:hover {
-        box-shadow: 0 1px 5px 1px #cccccc;
-    }
-    
-    #menu-categories-title+div {
-        margin-bottom: 50px;
-    }
-    /* END MENU CATEGORIES PAGE */
-    /* SINGLE CATEGORY PAGE */
-    /* END SINGLE CATEGORY PAGE */
     /********** Large devices only **********/
     
     @media (min-width: 1200px) {
@@ -904,14 +725,6 @@ background-position: center;*/
             width: 280px;
             margin: 0 auto 15px;
         }
-        /* .col-xxs-12 {
-position: relative;
-min-height: 1px;
-padding-right: 15px;
-padding-left: 15px;
-float: left;
-width: 100%;
-} */
     }
     
     @media (max-width: 350px) {
