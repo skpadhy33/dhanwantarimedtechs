@@ -68,11 +68,6 @@
         font-size: 2.0em;
         /*margin-left: -10px;*/
     }
-    /* #brand_name_small {
-margin-left: auto;
-margin-right: auto;
-width: 303.09px;
-} */
     
     .navbar-brand-center h1 {
         /* Company name */
@@ -110,8 +105,6 @@ width: 303.09px;
     
     .nav-tabs {
         margin-top: 25px;
-        float: left;
-        clear: both;
     }
     
     .dropdown li a {
@@ -120,22 +113,22 @@ width: 303.09px;
     
     .nav-tabs li>a {
         color: #000000;
-        font-size: 1.25em;
-        /* padding: 10px; */
+        font-size: medium;
+        /* padding: 5px; */
     }
     
     .nav-tabs>li>a {
         color: #ffffff;
-        font-size: 1.25em;
+        font-size: medium;
         border-radius: 10px;
-        /* font-weight: bold; */
+        font-weight: bold;
     }
     
     .nav-tabs li>a:hover,
     .nav-tabs li>a:active {
         color: #000000;
-        font-size: 1.35em;
-        font-weight: bold;
+        font-size: medium;
+        /* font-weight: bold; */
     }
     
     .dropdown:hover .dropdown-menu {
@@ -146,6 +139,21 @@ width: 303.09px;
     @media(max-width: 768px) {
         .nav-tabs {
             font-size: small;
+        }
+        .nav-tabs li>a {
+            padding: 5px;
+        }
+        .nav-tabs li>a {
+            font-size: small;
+        }
+        .nav-tabs>li>a {
+            font-size: small;
+            border-radius: 5px;
+        }
+        .nav-tabs li>a:hover,
+        .nav-tabs li>a:active {
+            font-size: small;
+            /* font-weight: bold; */
         }
     }
     /* END HEADER */
