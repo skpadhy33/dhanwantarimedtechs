@@ -815,7 +815,10 @@
             var input, filter, ul, li, a, i, txtValue;
             input = document.getElementById('search-box');
 
-            document.getElementById("search-decl").innerHTML = "Showing search results for keyword : &quot;" + input.value + "&quot;";
+            if (input.value === "")
+                document.getElementById("search-decl").innerHTML = "Showing all products";
+            else
+                document.getElementById("search-decl").innerHTML = "Showing search results for keyword : &quot;" + input.value + "&quot;";
 
             filter = input.value.toUpperCase();
             ul = document.getElementById("myUL");
