@@ -124,6 +124,10 @@
 
                     <h1 class="page_h1 ">Our Products</h1>
 
+                    <div id="search-decl" class="text-center" style="font-style: italic;">
+                        Showing all products
+                    </div>
+
                     <ul id="myUL" class="products-list ">
                         <li>
                             <div class="product-item-tile ventilator-tile ">
@@ -810,6 +814,9 @@
             // Declare variables
             var input, filter, ul, li, a, i, txtValue;
             input = document.getElementById('search-box');
+
+            document.getElementById("search-decl").innerHTML = "Showing search results for keyword : &quot;" + input.value + "&quot;";
+
             filter = input.value.toUpperCase();
             ul = document.getElementById("myUL");
             li = ul.getElementsByTagName('li');
@@ -826,7 +833,7 @@
             }
         }
     </script>
-    <script>
+    <!-- <script>
         // For sidevav
         /* Set the width of the side navigation to 250px */
         function openNav() {
@@ -837,7 +844,7 @@
         function closeNav() {
             document.getElementById("mySidenav ").style.width = "0 ";
         }
-    </script>
+    </script> -->
 
 </body>
 
